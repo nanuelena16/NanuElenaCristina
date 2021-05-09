@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/fundal"
+    tools:context="com.example.elena.proiectcloud.PagPrincipalaActivity">
+
+    <TextView
+        android:id="@+id/tv_listaMea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="120dp"
+        android:text="@string/tv_listaMea"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/culoare_text"
+        android:fontFamily="Georgia"/>
+
+    <ListView
+        android:id="@+id/lv_listaMea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_listaMea"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+        android:id="@+id/b_actualizare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@color/fundal_buton"
+        android:onClick="restart"
+        android:text="@string/b_actualizare" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_actualizare"
+        android:layout_alignStart="@+id/b_actualizare"
+        android:layout_marginBottom="13dp"
+        android:background="@color/fundal_buton"
+        android:text="@string/b_raportLista"
+        android:onClick="raport"/>
+
+
+</RelativeLayout>

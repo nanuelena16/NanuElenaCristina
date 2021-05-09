@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79528403444",
+    "firebase_url": "https://proiect-dam-Nanu-Elena-ref.firebaseio.com",
+    "project_id": "proiect-dam-Nanu-Elena-ref",
+    "storage_bucket": "proiect-dam-Nanu-Elena-ref.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79528403444:android:de27784d4f704e88",
+        "android_client_info": {
+          "package_name": "com.example.elena.proiectcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79528403444-i6e3ufhol8tftqusr1aqp0d36mpraalv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elena.proiectcloud",
+            "certificate_hash": "315ba6f11b88107f0025f56f9a729b6c4952319d"
+          }
+        },
+        {
+          "client_id": "79528403444-oah1htau0vo42betb93e9lp55onfj8dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7vkcyf2ejnUBSU3FhA0L9OXcg1vrHxro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79528403444-oah1htau0vo42betb93e9lp55onfj8dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

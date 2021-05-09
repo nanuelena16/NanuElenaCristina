@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Referinte bibliografice</string>
+    <string name="tv_logare">Login</string>
+    <string name="tv_contnume">Nume cont</string>
+    <string name="tv_parola">Parola</string>
+    <string name="b_login">Conectare</string>
+    <string name="b_crearecont">Creare cont</string>
+
+    <string name="tv_creare">Cont nou</string>
+    <string name="tv_creareparola">Parola cont</string>
+    <string name="tv_creareid">Id cont nou</string>
+    <string name="b_crearecontnou">Creare cont</string>
+
+    <string name="i_despre">Despre</string>
+
+    <string name="tv_despre">Despre</string>
+    <string name="tv_numedespre">Nume student:    Elena Nanu</string>
+    <string name="tv_facultatedespre">Facultate: CSIE</string>
+    <string name="tv_grupadespre">Grupa: 1072</string>
+    <string name="tv_seriedespre">Serie: B</string>
+    <string name="tv_contactdespre">Contact</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="i_listaReferinte">Referinte</string>
+    <string name="i_adaugaReferinta">Adauga</string>
+
+    <string name="tv_element">Titlu</string>
+
+    <string name="tv_adaugaReferinta">Adaugare referinta</string>
+
+    <string name="tv_adaugaTitluJurnal">Titlu publicatie</string>
+    <string name="tv_adaugaAnAparitie">An aparitie</string>
+    <string name="tv_adaugaTipDocument">Tip Document</string>
+    <string name="tv_adaugaTitluDocument">Titlu document</string>
+    <string name="b_adaugaReferinta">Adauga</string>
+    <string name="b_adaugaAutori">Autori</string>
+
+    <string name="tv_listaMea">Lista mea</string>
+
+    <string name="b_actualizare">Refresh</string>
+
+    <string name="tv_adaugaAutori">Adauga autor</string>
+    <string name="tv_numeAutor">Nume</string>
+    <string name="tv_emailAutor">Email</string>
+    <string name="b_adaugaAutor">Adauga</string>
+
+    <string name="tv_afisare">Afisare referinta</string>
+    <string name="b_sterge">Sterge</string>
+    <string name="b_raport">Raport</string>
+
+    <string name="b_raportLista">Raport</string>
+
+    <string name="i_grafic">Grafic</string>
+
+    <string name="prefNume">Elena</string>
+    <string name="prefParola">Elena</string>
+
+    <string name="tv_legendaOX">Axa OX - ani aparitie</string>
+    <string name="tv_legendaOY">Axa OY - nr. carti lansate intr-un an</string>
+    <string name="tv_legenda">Legenda</string>
+
+</resources>

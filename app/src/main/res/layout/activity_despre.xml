@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundal"
+    tools:context="com.example.elena.proiectcloud.DespreActivity">
+
+    <TextView
+        android:id="@+id/tv_despre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textSize="30dp"
+        android:textColor="@color/culoare_text"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_despre" />
+
+    <TextView
+        android:id="@+id/tv_desprenume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_despre"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="58dp"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_numedespre"
+        android:textColor="@color/culoare_text"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_desprefacultate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_despre"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_facultatedespre"
+        android:textColor="@color/culoare_text"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_despregrupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_despre"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="158dp"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_grupadespre"
+        android:textColor="@color/culoare_text"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_despreserie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_despre"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="208dp"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_seriedespre"
+        android:textColor="@color/culoare_text"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/tv_desprecontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_despre"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="258dp"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_contactdespre"
+        android:textColor="@color/culoare_text"
+        android:onClick="contact"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desprecontact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/csie" />
+</RelativeLayout>

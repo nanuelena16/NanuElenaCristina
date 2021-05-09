@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundal"
+    tools:context="com.example.elena.proiectcloud.ScriereAutoriActivity">
+
+    <TextView
+        android:id="@+id/tv_adaugaAutori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/culoare_text"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:text="@string/tv_adaugaAutori" />
+
+    <TextView
+        android:id="@+id/tv_numeAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_adaugaAutori"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="105dp"
+        android:text="@string/tv_numeAutor"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:textSize="20dp"
+        android:textColor="@color/culoare_text"/>
+
+    <EditText
+        android:id="@+id/et_numeAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_numeAutor"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_emailAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_adaugaAutori"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="205dp"
+        android:text="@string/tv_emailAutor"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:textSize="20dp"
+        android:textColor="@color/culoare_text"/>
+
+    <EditText
+        android:id="@+id/et_emailAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_emailAutor"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_adaugaAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:background="@color/fundal_buton"
+        android:text="@string/b_adaugaAutor"
+        android:onClick="adaugaAutori"/>
+</RelativeLayout>

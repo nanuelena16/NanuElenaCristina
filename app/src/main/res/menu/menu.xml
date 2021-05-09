@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/i_despre"
+        android:title="@string/i_despre" />
+
+    <item
+        android:id="@+id/i_listaReferinte"
+        android:title="@string/i_listaReferinte" />
+
+    <item
+        android:id="@+id/i_adaugaReferinta"
+        android:title="@string/i_adaugaReferinta" />
+
+    <item
+        android:id="@+id/i_grafic"
+        android:title="@string/i_grafic" />
+</menu>

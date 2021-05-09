@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/fundal"
+    tools:context="com.example.elena.proiectcloud.AdaugaReferintaActivity">
+
+    <TextView
+        android:id="@+id/tv_adaugaRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/culoare_text"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:textAlignment="center"
+        android:text="@string/tv_adaugaReferinta" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_spatiu1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=""-->
+        <!--android:textSize="20dp" />-->
+
+    <TextView
+        android:id="@+id/tv_spatiu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_titluPub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_adaugaTitluJurnal"
+        android:textAlignment="center"
+        android:textColor="@color/culoare_text"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_titluPub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_anAparitie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_adaugaAnAparitie"
+        android:textColor="@color/culoare_text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_anAparitie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_tipArticol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_adaugaTipDocument"
+        android:textColor="@color/culoare_text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_tipArticol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_titluDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_adaugaTitluDocument"
+        android:textColor="@color/culoare_text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_titluDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b_adaugareAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:background="@color/fundal"
+        android:text="@string/b_adaugaAutori"
+        android:onClick="deschidePaginaAutori"/>
+
+    <TextView
+        android:id="@+id/tv_spatiu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b_adaugaReferinta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/fundal_buton"
+        android:text="@string/b_adaugaReferinta"
+        android:onClick="adaugare"/>
+</LinearLayout>

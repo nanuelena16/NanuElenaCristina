@@ -1,0 +1,121 @@
+function efect1() {
+                var imag = context.getImageData(0, 0, w, h-60);
+                for (var y = 0; y < h; y++) {
+                    for (var x = 0; x < w; x++) {
+                        var i = (y * w * 4) + x * 4;
+
+                        imag.data[i] = 255 - imag.data[i];
+                        //imag.data[i+1] = 255 - imag.data[i + 1];
+                        //imag.data[i+2] = 255 - imag.data[i + 2];
+                        //imag.data[i+3] = 255 - imag.data[i + 3];
+                    }
+                }
+                context.putImageData(imag, 0, 0);
+            }
+
+
+
+            function efect2() {
+                var imag = context.getImageData(0, 0, w, h - 60);
+                for (var y = 0; y < h; y++) {
+                    for (var x = 0; x < w; x++) {
+                        var i = (y * w * 4) + x * 4;
+
+                        imag.data[i] = imag.data[i] * 0.299 + 0.587 * imag.data[i + 1] + 0.114 * imag.data[i + 2];
+                        imag.data[i+1] = imag.data[i] * 0.299 + 0.587 * imag.data[i + 1] + 0.114 * imag.data[i + 2];
+                        imag.data[i+2] = imag.data[i] * 0.299 + 0.587 * imag.data[i + 1] + 0.114 * imag.data[i + 2];
+                        imag.data[i+3] = imag.data[i] * 0.299 + 0.587 * imag.data[i + 1] + 0.114 * imag.data[i + 2];
+                    }
+                }
+                context.putImageData(imag, 0, 0);
+            }
+
+
+
+            function efect3() {
+                var imag = context.getImageData(0, 0, w, h - 60);
+                for (var y = 0; y < h; y++) {
+                    for (var x = 0; x < w; x++) {
+                        var i = (y * w * 4) + x * 4;
+
+                        imag.data[i+1] = imag.data[i+1]+100;
+                        if (imag.data[i+1] > 255) {
+                            imag.data[i+1] = 255;
+                        }
+                        if (imag.data[i+1] < 0) {
+                            imag.data[i+1] = 0;
+                        }
+                    }
+                }
+                context.putImageData(imag, 0, 0);
+            }
+
+
+
+
+
+
+
+
+
+
+ video1 = $("<video></video>")
+                .attr({ src: "1.mp4", loop: "loop" })[0];
+                video1.load();
+                video1.play();
+
+context.fillStyle = "gray";
+                    context.fillRect(0, h - hBara, w, hBara);
+
+                    context.fillStyle = "red";
+                    context.fillRect(0, h - hBara, video1.currentTime * w / video1.duration, hBara);
+
+
+
+
+video2 = $("<video></video>")
+                .attr({ src: "2.mp4", loop: "loop" })[0];
+                video2.load();
+                video2.play();
+
+context.fillStyle = "gray";
+                    context.fillRect(0, h - hBara, w, hBara);
+
+                    context.fillStyle = "red";
+                    context.fillRect(0, h - hBara, video2.currentTime * w / video2.duration, hBara);
+
+
+
+
+video3 = $("<video></video>")
+                .attr({ src: "3.mp4", loop: "loop" })[0];
+                video3.load();
+                video3.play();
+
+context.fillStyle = "gray";
+                    context.fillRect(0, h - hBara, w, hBara);
+
+                    context.fillStyle = "red";
+                    context.fillRect(0, h - hBara, video3.currentTime * w / video3.duration, hBara);
+
+
+
+
+
+video4 = $("<video></video>")
+                .attr({ src: "4.mp4", loop: "loop" })[0];
+                video4.load();
+                video4.play();
+
+context.fillStyle = "gray";
+                    context.fillRect(0, h - hBara, w, hBara);
+
+                    context.fillStyle = "red";
+                    context.fillRect(0, h - hBara, video4.currentTime * w / video4.duration, hBara);
+
+
+
+
+
+
+

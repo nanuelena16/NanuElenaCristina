@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundal"
+    tools:context="com.example.elena.proiectcloud.CreareUserActivity">
+
+    <TextView
+        android:id="@+id/tv_creareuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="@string/tv_creare"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/culoare_text"
+        android:fontFamily="Georgia"/>
+
+    <TextView
+        android:id="@+id/tv_crearenume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_creareuser"
+        android:layout_marginTop="74dp"
+        android:layout_toStartOf="@+id/tv_creareuser"
+        android:text="@string/tv_contnume"
+        android:textColor="@color/culoare_text"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_crearenume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_crearenume"
+        android:layout_marginEnd="81dp"
+        android:text=""
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_creareparola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_creareuser"
+        android:layout_marginTop="144dp"
+        android:layout_toStartOf="@+id/tv_creareuser"
+        android:text="@string/tv_creareparola"
+        android:textColor="@color/culoare_text"
+        android:textStyle="bold"
+        android:fontFamily="Georgia"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et_creareparola"
+        android:password="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_creareparola"
+        android:layout_marginEnd="81dp"
+        android:text=""
+        android:textSize="15dp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_creareid"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/tv_creareuser"-->
+        <!--android:layout_marginTop="214dp"-->
+        <!--android:layout_toStartOf="@+id/tv_creareuser"-->
+        <!--android:text="@string/tv_creareid"-->
+        <!--android:textColor="@color/culoare_text"-->
+        <!--android:textStyle="bold"-->
+        <!--android:fontFamily="Georgia"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_creareid"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignTop="@+id/tv_creareid"-->
+        <!--android:layout_marginEnd="81dp"-->
+        <!--android:text=""-->
+        <!--android:textSize="15dp" />-->
+
+    <Button
+        android:id="@+id/b_crearecontnou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_creareparola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:background="@color/fundal_buton"
+        android:onClick="creareContNou"
+        android:text="@string/b_crearecontnou"
+        android:textStyle="bold" />
+
+</RelativeLayout>
