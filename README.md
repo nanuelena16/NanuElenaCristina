@@ -1,4 +1,4 @@
-# NanuElenaCristina SIMPRE 2021 !!Screenshots in comment section!
+# NanuElenaCristina SIMPRE 2021 !!Screenshots in commit comment section!
 CloudComputing - Documentatie - Crearea unei aplicatii mobile
 
 
